@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jdk1.8.0_25\bin\java" -jar listing-1.0-SNAPSHOT-jar-with-dependencies.jar
