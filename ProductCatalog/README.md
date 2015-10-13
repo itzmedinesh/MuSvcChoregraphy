@@ -13,6 +13,7 @@ Choreography of services happens in parallel. Calls ProductSearchAndList service
 
 Query Parameter : "listSize" query parameter is used to specify the number of products that has to be displayed in the response. Should be non-negative and greater than 0. If the parameter is not passed, then all the products returned from ProductSearchAndList service is displayed.
 
+
 ## Usage
 
 1. Navigate to project folder from Node.js command prompt.
