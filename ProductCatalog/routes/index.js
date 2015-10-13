@@ -123,7 +123,8 @@ Product.prototype.getProductDetails = function(listresults, maxSize, callback) {
 						});
 	};
 
-	maxSize = maxSize === -1 ? products.item.length : maxSize;
+	maxSize = (maxSize === -1 || maxSize > products.item.length) ? products.item.length
+			: maxSize;
 
 	var asyncTasks = [];
 
