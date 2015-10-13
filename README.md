@@ -1,14 +1,14 @@
-# Product Service Orchestration – Serial Execution
+# Product Service Choreography – Serial Execution
 
 ![alt tag](https://github.com/itzmedinesh/MuSvcChoreography/blob/master/Images/SerialProdRequestCallGraph.png)
 
 
-# Product Service Orchestration - Parallel Execution
+# Product Service Choreography - Parallel Execution
 
 ![alt tag](https://github.com/itzmedinesh/MuSvcChoreography/blob/master/Images/ParallelProdRequestCallGraph.png)
 
 
-# Product Service Orchestration - Sample Response
+# Product Service Choreography - Sample Response
 
 ![alt tag](https://github.com/itzmedinesh/MuSvcChoreography/blob/master/Images/SampleProductCallResponse.png)
 
