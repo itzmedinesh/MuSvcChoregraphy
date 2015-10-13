@@ -29,7 +29,8 @@ if ('development' == app.get('env')) {
 
 app.set('port', process.env.PORT || 7000);
 
-app.get('/api/product/catalog', routes.getProductDetails);
+app.get('/api/product/catalog/parallel', routes.productSvcsChoreographerParallel);
+app.get('/api/product/catalog/series', routes.productSvcsChoreographerSerial);
 
 http.createServer(app).listen(
 		app.get('port'),
