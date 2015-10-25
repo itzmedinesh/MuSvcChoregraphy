@@ -1,4 +1,4 @@
-# The primary objective of this project is to compare the performance & scalability of serial execution of APIs versus the parallel execution of APIs.
+# The primary objective of this project is to compare the performance & scalability of serial execution of APIs versus the parallel execution of APIs. Demonstrate fault tolerance and resilience using circuit breakers.
 
 # Product Service Choreography – Serial Execution (Before)
 
