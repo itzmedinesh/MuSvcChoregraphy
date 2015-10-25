@@ -23,14 +23,14 @@ app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
 // development only
-if ('development' == app.get('env')) {
+if ('development' === app.get('env')) {
 	app.use(express.errorHandler());
 }
 
 app.set('port', process.env.PORT || 7000);
 
 app.get('/api/product/catalog/parallel', routes.productSvcsChoreographerParallel);
-app.get('/api/product/catalog/series', routes.productSvcsChoreographerSerial);
+app.get('/api/product/catalog/series', routes.productSvcsChoreographerSeries);
 
 http.createServer(app).listen(
 		app.get('port'),

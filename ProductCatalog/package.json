@@ -10,6 +10,7 @@
     "dust": "*",
     "adaro": "*",
     "async": "*",
-    "request": "*"
+    "request": "*",
+    "circuit-breaker-js" : "*"	
   }
 }
